@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+:root {
+  /* Dark Green UAE Theme - Slack-inspired */
+  --bg-primary: #F5F5F5;
+  --bg-card: #ffffff;
+  --text-primary: #1D1C1D;
+  --text-secondary: #616061;
+  --border-color: #E0E0E0;
+  --hover-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --focus-ring: #007A5A;
+
+  /* Accent colors - Dark Green like Slack */
+  --accent-primary: #007A5A;
+  --accent-secondary: #006644;
+  --accent-light: #E8F5E9;
+  --accent-hover: #005A42;
+}
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+}
