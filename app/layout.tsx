@@ -4,6 +4,7 @@ import "./globals.css";
 import Link from "next/link";
 import Image from "next/image";
 import MobileNav from "@/components/MobileNav";
+import Footer from "@/components/Footer";
 import { SITE_CONFIG } from "@/lib/constants";
 
 const geistSans = Geist({
@@ -65,27 +66,7 @@ export default function RootLayout({
           </div>
         </header>
         <main>{children}</main>
-        <footer className="border-t bg-[var(--bg-card)] border-[var(--border-color)] mt-16">
-          <div className="max-w-6xl mx-auto px-4 py-8">
-            <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-              <div className="flex items-center gap-2">
-                <Image src={SITE_CONFIG.logo} alt={`${SITE_CONFIG.shortName} Logo`} width={24} height={24} className="w-6 h-6 rounded-md" />
-                <span className="text-sm text-[var(--text-secondary)]">© {new Date().getFullYear()} {SITE_CONFIG.shortName}</span>
-              </div>
-              <div className="flex gap-6 text-sm">
-                <Link href="/privacy" className="hover:text-[var(--accent-primary)] focus:text-[var(--accent-primary)] transition-colors focus:outline-none">
-                  Privacy
-                </Link>
-                <Link href="/terms" className="hover:text-[var(--accent-primary)] focus:text-[var(--accent-primary)] transition-colors focus:outline-none">
-                  Terms
-                </Link>
-                <Link href="/disclaimer" className="hover:text-[var(--accent-primary)] focus:text-[var(--accent-primary)] transition-colors focus:outline-none">
-                  Disclaimer
-                </Link>
-              </div>
-            </div>
-          </div>
-        </footer>
+        <Footer />
       </body>
     </html>
   );

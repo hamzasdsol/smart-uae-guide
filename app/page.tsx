@@ -36,10 +36,22 @@ export default function HomePage() {
     }
   ];
 
-  const stats = [
-    { number: "100+", label: "Guides" },
-    { number: "5", label: "Categories" },
-    { number: "10K+", label: "Readers" },
+  const highlights = [
+    {
+      title: "Honest Advice",
+      description: "Real experiences from expats living in UAE",
+      icon: "✓"
+    },
+    {
+      title: "Always Free",
+      description: "No paywalls, no subscriptions",
+      icon: "✓"
+    },
+    {
+      title: "Constantly Growing",
+      description: "New guides added regularly",
+      icon: "✓"
+    },
   ];
 
   return (
@@ -88,14 +100,19 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Stats Section */}
-      <section className="border-b border-[var(--border-color)] bg-[var(--bg-card)]">
-        <div className="max-w-6xl mx-auto px-4 py-8 md:py-12">
-          <div className="grid grid-cols-3 gap-4 md:gap-8">
-            {stats.map((stat, index) => (
-              <div key={index} className="text-center">
-                <div className="text-3xl md:text-4xl lg:text-5xl font-bold mb-2">{stat.number}</div>
-                <div className="text-sm md:text-base text-[var(--text-secondary)]">{stat.label}</div>
+      {/* Highlights Section */}
+      <section className="border-b border-[var(--border-color)] bg-gradient-to-r from-primary-50 to-amber-50/30">
+        <div className="max-w-6xl mx-auto px-4 py-10 md:py-14">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+            {highlights.map((highlight, index) => (
+              <div key={index} className="flex items-start gap-4 bg-white/60 backdrop-blur-sm p-6 rounded-xl border border-stone-200 hover:shadow-lg transition-shadow">
+                <div className="flex-shrink-0 w-10 h-10 rounded-full bg-primary-500 text-white flex items-center justify-center text-xl font-bold">
+                  {highlight.icon}
+                </div>
+                <div>
+                  <h3 className="font-bold text-lg text-stone-900 mb-1">{highlight.title}</h3>
+                  <p className="text-sm text-stone-600">{highlight.description}</p>
+                </div>
               </div>
             ))}
           </div>
@@ -170,7 +187,7 @@ export default function HomePage() {
             Ready to Master UAE Living?
           </h2>
           <p className="text-lg md:text-xl text-[var(--text-secondary)] mb-8 max-w-2xl mx-auto">
-            Join thousands of expats who trust SmartUAE for practical, no-nonsense advice on living smart in the Emirates.
+            Get practical, no-nonsense advice on living smart in the Emirates. Built by expats, for expats.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
