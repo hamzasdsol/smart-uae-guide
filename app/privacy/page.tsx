@@ -94,9 +94,32 @@ export default function PrivacyPolicy() {
                         </div>
                     </section>
 
-                    {/* Section 5 */}
+                    {/* Section 5 - AI Chatbot */}
                     <section>
-                        <h2 className="text-3xl font-bold text-gray-900 mb-6">5. Use of Information</h2>
+                        <h2 className="text-3xl font-bold text-gray-900 mb-6">5. AI Chatbot Assistant</h2>
+                        <div className="space-y-2 text-gray-700 leading-relaxed">
+                            <p>
+                                {SITE_CONFIG.name} features an AI-powered chatbot assistant to help answer your questions about UAE expat life, budgeting, banking, and other topics.
+                            </p>
+                            <p>
+                                <strong>Important Privacy Information:</strong>
+                            </p>
+                            <ul className="list-disc pl-8 space-y-2 mt-4">
+                                <li>We do not store, record, or save any conversations you have with the AI chatbot.</li>
+                                <li>Your messages are sent to Google&apos;s Gemini AI service for processing, but we do not retain any chat history on our servers.</li>
+                                <li>Each chat session is temporary and exists only in your browser for the duration of your visit.</li>
+                                <li>Google may process your queries according to their own privacy policies. We recommend reviewing <a href="https://ai.google.dev/gemini-api/terms" target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:text-primary-700 underline font-medium">Google&apos;s Gemini API Terms</a>.</li>
+                                <li>The chatbot is provided for informational purposes only and should not be considered professional advice.</li>
+                            </ul>
+                            <p className="mt-4">
+                                By using the chatbot, you acknowledge that your messages are processed by third-party AI services and that we do not store your conversation data.
+                            </p>
+                        </div>
+                    </section>
+
+                    {/* Section 6 */}
+                    <section>
+                        <h2 className="text-3xl font-bold text-gray-900 mb-6">6. Use of Information</h2>
                         <div className="space-y-2 text-gray-700 leading-relaxed">
                             <p>Any automatically collected information may be used for:</p>
                             <ul className="list-disc pl-8 space-y-2 mt-4">
@@ -108,9 +131,9 @@ export default function PrivacyPolicy() {
                         </div>
                     </section>
 
-                    {/* Section 6 */}
+                    {/* Section 7 */}
                     <section>
-                        <h2 className="text-3xl font-bold text-gray-900 mb-6">6. Data Security</h2>
+                        <h2 className="text-3xl font-bold text-gray-900 mb-6">7. Data Security</h2>
                         <div className="space-y-2 text-gray-700 leading-relaxed">
                             <p>
                                 Since we do not store personal data, privacy risks are minimal. However, third-party providers may collect anonymized data according to their own policies.
@@ -121,9 +144,9 @@ export default function PrivacyPolicy() {
                         </div>
                     </section>
 
-                    {/* Section 7 */}
+                    {/* Section 8 */}
                     <section>
-                        <h2 className="text-3xl font-bold text-gray-900 mb-6">7. External Links</h2>
+                        <h2 className="text-3xl font-bold text-gray-900 mb-6">8. External Links</h2>
                         <div className="space-y-2 text-gray-700 leading-relaxed">
                             <p>
                                 Our website may contain links to external websites, including affiliate links. We are not responsible for the content or privacy practices of those third-party sites.
@@ -134,9 +157,9 @@ export default function PrivacyPolicy() {
                         </div>
                     </section>
 
-                    {/* Section 8 */}
+                    {/* Section 9 */}
                     <section>
-                        <h2 className="text-3xl font-bold text-gray-900 mb-6">8. Future Tools and Features</h2>
+                        <h2 className="text-3xl font-bold text-gray-900 mb-6">9. Future Tools and Features</h2>
                         <div className="space-y-2 text-gray-700 leading-relaxed">
                             <p>
                                 As we expand {SITE_CONFIG.name}, we may introduce interactive tools, calculators, or other features. These will be designed with privacy in mind and will operate in your browser whenever possible.
@@ -147,9 +170,9 @@ export default function PrivacyPolicy() {
                         </div>
                     </section>
 
-                    {/* Section 9 */}
+                    {/* Section 10 */}
                     <section>
-                        <h2 className="text-3xl font-bold text-gray-900 mb-6">9. Children&apos;s Privacy</h2>
+                        <h2 className="text-3xl font-bold text-gray-900 mb-6">10. Children&apos;s Privacy</h2>
                         <div className="space-y-2 text-gray-700 leading-relaxed">
                             <p>
                                 {SITE_CONFIG.name} is not directed at children under 13. We do not knowingly collect personal information from children.
@@ -157,9 +180,9 @@ export default function PrivacyPolicy() {
                         </div>
                     </section>
 
-                    {/* Section 10 */}
+                    {/* Section 11 */}
                     <section>
-                        <h2 className="text-3xl font-bold text-gray-900 mb-6">10. Changes to this Policy</h2>
+                        <h2 className="text-3xl font-bold text-gray-900 mb-6">11. Changes to this Policy</h2>
                         <div className="space-y-2 text-gray-700 leading-relaxed">
                             <p>
                                 We may update this Privacy Policy at any time. Changes will be posted on this page with an updated &quot;Last updated&quot; date.
@@ -170,9 +193,9 @@ export default function PrivacyPolicy() {
                         </div>
                     </section>
 
-                    {/* Section 11 - Contact */}
+                    {/* Section 12 - Contact */}
                     <section>
-                        <h2 className="text-3xl font-bold text-gray-900 mb-6">11. Contact Us</h2>
+                        <h2 className="text-3xl font-bold text-gray-900 mb-6">12. Contact Us</h2>
                         <div className="space-y-2 text-gray-700 leading-relaxed">
                             <p>
                                 If you have any questions about this Privacy Policy, contact us at:

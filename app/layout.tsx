@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import MobileNav from "@/components/MobileNav";
 import Footer from "@/components/Footer";
+import Chatbot from "@/components/Chatbot";
 import { SITE_CONFIG } from "@/lib/constants";
 
 const geistSans = Geist({
@@ -67,6 +68,7 @@ export default function RootLayout({
         </header>
         <main>{children}</main>
         <Footer />
+        <Chatbot />
       </body>
     </html>
   );
