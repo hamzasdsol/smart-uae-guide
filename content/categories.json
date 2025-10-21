@@ -1,7 +1,82 @@
 [
-  { "slug": "budget", "name": "Budget and Cost of Living", "blurb": "Salary math, rent, groceries, monthly planning in UAE." },
-  { "slug": "finance", "name": "Finance and Money Tools", "blurb": "Cards, banks, ETFs, platforms that work in UAE." },
-  { "slug": "tools", "name": "Digital Tools and Productivity", "blurb": "Apps that simplify expat life and work." },
-  { "slug": "shopping", "name": "Smart Shopping UAE", "blurb": "Amazon.ae vs Noon, best buys, price checks." },
-  { "slug": "expat", "name": "Expat Lifestyle Setup", "blurb": "SIM, internet, rentals, city life guides." }
+  {
+    "slug": "budget",
+    "name": "Budget and Cost of Living",
+    "blurb": "Salary requirements, rent costs, groceries, and monthly budget planning for living comfortably in the UAE.",
+    "description": "Master your finances in the UAE with comprehensive guides on salary requirements, cost of living breakdowns, and budgeting strategies. Learn how much you need to live comfortably in Dubai, Abu Dhabi, and other emirates, with detailed expense categories and real-world examples.",
+    "icon": "Wallet",
+    "color": "#8B7355"
+  },
+  {
+    "slug": "finance",
+    "name": "Finance and Banking",
+    "blurb": "Credit cards, bank accounts, investment platforms, and financial tools that work seamlessly in the UAE.",
+    "description": "Navigate the UAE financial landscape with expert guides on opening bank accounts, choosing the best credit cards, understanding Islamic banking, and accessing investment opportunities. From salary accounts to premium banking services, find everything you need to manage your money effectively.",
+    "icon": "Building2",
+    "color": "#A68968"
+  },
+  {
+    "slug": "technology",
+    "name": "Digital Tools and Apps",
+    "blurb": "Essential apps, government digital services, and productivity tools that simplify expat life in the UAE.",
+    "description": "Discover the must-have digital tools for UAE residents. From government apps like UAE PASS to food delivery, banking, transportation, and productivity apps. Complete setup guides for newcomers and tech-savvy optimization tips for long-term residents.",
+    "icon": "Smartphone",
+    "color": "#C4A57B"
+  },
+  {
+    "slug": "comparison",
+    "name": "Comparisons and Reviews",
+    "blurb": "Side-by-side comparisons of shopping platforms, cities, services, and products to help you make informed decisions.",
+    "description": "Make smarter choices with detailed comparisons of shopping platforms (Amazon.ae vs Noon), cost of living between emirates (Dubai vs Abu Dhabi), banks, telecom providers, and more. Data-driven analysis to help you save money and choose the best options.",
+    "icon": "Scale",
+    "color": "#705D47"
+  },
+  {
+    "slug": "guide",
+    "name": "Expat Setup Guides",
+    "blurb": "Step-by-step guides for setting up your life in the UAE, from visa processing to finding housing and schools.",
+    "description": "Complete guides for expats at every stage. Whether you're just arriving or settling in long-term, find detailed instructions for visa processing, housing search, school enrollment, healthcare, transportation, and building your social network in the UAE.",
+    "icon": "ClipboardList",
+    "color": "#5C4A38"
+  },
+  {
+    "slug": "lifestyle",
+    "name": "Lifestyle and Entertainment",
+    "blurb": "Entertainment, dining, fitness, travel, and social activities for making the most of life in the UAE.",
+    "description": "Explore the vibrant UAE lifestyle with guides to the best restaurants, entertainment venues, fitness centers, beach clubs, and cultural attractions. Discover how to balance work and leisure while enjoying everything the emirates have to offer.",
+    "icon": "PartyPopper",
+    "color": "#8B7355"
+  },
+  {
+    "slug": "housing",
+    "name": "Housing and Real Estate",
+    "blurb": "Finding apartments, villas, understanding rental contracts, and navigating the UAE property market.",
+    "description": "Navigate the UAE housing market with confidence. Learn about popular neighborhoods, rental costs, negotiation strategies, understanding Ejari contracts, and tips for finding the perfect home for your family and budget.",
+    "icon": "Home",
+    "color": "#A68968"
+  },
+  {
+    "slug": "transportation",
+    "name": "Transportation and Mobility",
+    "blurb": "Metro, taxis, car ownership, driving licenses, parking, and getting around the UAE efficiently.",
+    "description": "Master transportation in the UAE with guides on public transport, ride-hailing apps, buying or leasing a car, obtaining a UAE driving license, understanding Salik toll gates, and parking regulations. Save time and money on your daily commute.",
+    "icon": "Car",
+    "color": "#C4A57B"
+  },
+  {
+    "slug": "education",
+    "name": "Schools and Education",
+    "blurb": "International schools, curriculum options, fees, enrollment processes, and educational planning for expat families.",
+    "description": "Find the best education for your children in the UAE. Compare international schools, understand different curricula (British, American, IB), navigate enrollment processes, and budget for education costs. Tips for choosing the right school for your family.",
+    "icon": "GraduationCap",
+    "color": "#705D47"
+  },
+  {
+    "slug": "health",
+    "name": "Healthcare and Wellness",
+    "blurb": "Health insurance, hospitals, clinics, fitness, and maintaining your wellbeing in the UAE.",
+    "description": "Access quality healthcare in the UAE with guides on health insurance options, choosing hospitals and clinics, finding specialists, understanding mandatory insurance requirements, and maintaining your physical and mental wellness.",
+    "icon": "Heart",
+    "color": "#5C4A38"
+  }
 ]
