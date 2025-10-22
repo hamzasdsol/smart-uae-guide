@@ -1,5 +1,7 @@
 'use client';
 
+import { useState, useEffect } from 'react';
+
 interface TOCItem {
   id: string;
   label: string;
@@ -10,6 +12,41 @@ interface TableOfContentsProps {
 }
 
 export default function TableOfContents({ items }: TableOfContentsProps) {
+  const [activeId, setActiveId] = useState<string>('');
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setActiveId(entry.target.id);
+          }
+        });
+      },
+      {
+        rootMargin: '-120px 0px -66% 0px',
+        threshold: 0
+      }
+    );
+
+    // Observe all sections
+    items.forEach((item) => {
+      const element = document.getElementById(item.id);
+      if (element) {
+        observer.observe(element);
+      }
+    });
+
+    return () => {
+      items.forEach((item) => {
+        const element = document.getElementById(item.id);
+        if (element) {
+          observer.unobserve(element);
+        }
+      });
+    };
+  }, [items]);
+
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
@@ -32,7 +69,11 @@ export default function TableOfContents({ items }: TableOfContentsProps) {
           <li key={item.id}>
             <button
               onClick={() => scrollToSection(item.id)}
-              className="text-[var(--blog-text)] hover:text-[var(--blog-heading)] hover:underline text-left text-sm w-full transition-all leading-snug"
+              className={`text-left text-sm w-full transition-all leading-snug ${
+                activeId === item.id
+                  ? 'text-[var(--accent-primary)] font-semibold'
+                  : 'text-[var(--blog-text)] hover:text-[var(--blog-heading)] hover:underline'
+              }`}
             >
               {item.label}
             </button>

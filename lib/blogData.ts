@@ -7,7 +7,7 @@ export interface BlogPost {
   slug: string;
   title: string;
   excerpt: string;
-  category: 'finance' | 'lifestyle' | 'technology' | 'guide' | 'comparison';
+  category: 'finance' | 'lifestyle' | 'technology' | 'guide' | 'comparison' | 'budget' | 'housing' | 'transportation' | 'education' | 'health';
   readTime: string;
   publishedDate: string;
   author: string;
@@ -84,6 +84,132 @@ export const blogPosts: BlogPost[] = [
     category: "comparison",
     readTime: "13 min read",
     publishedDate: "2025-01-21",
+    author: "Smart UAE Guide"
+  },
+  {
+    slug: "uae-driving-license-complete-guide-2025",
+    title: "UAE Driving License Guide 2025: Complete Process for Expats",
+    excerpt: "Step-by-step guide to getting your UAE driving license. Transfer procedures, costs, RTA requirements, and driving test tips for all emirates.",
+    category: "transportation",
+    readTime: "12 min read",
+    publishedDate: "2025-01-19",
+    author: "Smart UAE Guide"
+  },
+  {
+    slug: "dubai-metro-guide-zones-tickets-nol-card",
+    title: "Dubai Metro Guide: Zones, Tickets, NOL Card & Route Planning",
+    excerpt: "Complete guide to using Dubai Metro. Understand zones, ticket types, NOL card benefits, and how to navigate the Red and Green lines efficiently.",
+    category: "transportation",
+    readTime: "9 min read",
+    publishedDate: "2025-01-17",
+    author: "Smart UAE Guide"
+  },
+  {
+    slug: "best-international-schools-dubai-2025",
+    title: "Best International Schools in Dubai 2025: Fees, Curriculum & Reviews",
+    excerpt: "Comprehensive guide to Dubai's top international schools. Compare British, American, and IB curricula with detailed fee structures and admission processes.",
+    category: "education",
+    readTime: "14 min read",
+    publishedDate: "2025-01-23",
+    author: "Smart UAE Guide"
+  },
+  {
+    slug: "uae-school-admission-process-guide",
+    title: "UAE School Admission Process: Complete Guide for Expat Parents",
+    excerpt: "Navigate the school admission process in UAE. Documents required, application timelines, waiting lists, and tips for securing your preferred school.",
+    category: "education",
+    readTime: "11 min read",
+    publishedDate: "2025-01-11",
+    author: "Smart UAE Guide"
+  },
+  {
+    slug: "finding-apartment-dubai-rental-guide-2025",
+    title: "Finding an Apartment in Dubai: Complete Rental Guide 2025",
+    excerpt: "Expert guide to renting in Dubai. Popular neighborhoods, rental costs, negotiation strategies, Ejari registration, and tenant rights explained.",
+    category: "housing",
+    readTime: "15 min read",
+    publishedDate: "2025-01-24",
+    author: "Smart UAE Guide"
+  },
+  {
+    slug: "dubai-neighborhoods-comparison-where-to-live",
+    title: "Dubai Neighborhoods Comparison: Where to Live Based on Your Lifestyle",
+    excerpt: "Compare Dubai's top neighborhoods. Marina, Downtown, JBR, Arabian Ranches, JVC, and more - find the perfect area for your family and budget.",
+    category: "housing",
+    readTime: "13 min read",
+    publishedDate: "2025-01-13",
+    author: "Smart UAE Guide"
+  },
+  {
+    slug: "uae-health-insurance-complete-guide-2025",
+    title: "UAE Health Insurance Complete Guide 2025: Mandatory Coverage Explained",
+    excerpt: "Everything about UAE health insurance. Mandatory requirements, insurance providers comparison, coverage options, and how to choose the right plan.",
+    category: "health",
+    readTime: "12 min read",
+    publishedDate: "2025-01-25",
+    author: "Smart UAE Guide"
+  },
+  {
+    slug: "best-hospitals-clinics-dubai-abu-dhabi",
+    title: "Best Hospitals & Clinics in Dubai and Abu Dhabi 2025",
+    excerpt: "Comprehensive guide to UAE's top hospitals and clinics. Compare government and private facilities, specialties, insurance acceptance, and patient reviews.",
+    category: "health",
+    readTime: "10 min read",
+    publishedDate: "2025-01-10",
+    author: "Smart UAE Guide"
+  },
+  {
+    slug: "monthly-budget-breakdown-dubai-family-2025",
+    title: "Monthly Budget Breakdown for Families in Dubai 2025",
+    excerpt: "Real expense breakdown for families living in Dubai. Housing, education, groceries, utilities, and entertainment - plan your family budget effectively.",
+    category: "budget",
+    readTime: "11 min read",
+    publishedDate: "2025-01-26",
+    author: "Smart UAE Guide"
+  },
+  {
+    slug: "saving-money-uae-tips-strategies-2025",
+    title: "20 Proven Ways to Save Money Living in UAE 2025",
+    excerpt: "Practical money-saving strategies for UAE residents. From groceries and dining to entertainment and utilities - reduce expenses without sacrificing quality of life.",
+    category: "budget",
+    readTime: "9 min read",
+    publishedDate: "2025-01-09",
+    author: "Smart UAE Guide"
+  },
+  {
+    slug: "dubai-weekend-activities-guide-2025",
+    title: "Dubai Weekend Activities Guide 2025: Things to Do for Every Budget",
+    excerpt: "Discover the best weekend activities in Dubai. Free events, family-friendly attractions, beach clubs, desert trips, and cultural experiences.",
+    category: "lifestyle",
+    readTime: "10 min read",
+    publishedDate: "2025-01-27",
+    author: "Smart UAE Guide"
+  },
+  {
+    slug: "uae-dining-guide-best-restaurants-cafes",
+    title: "UAE Dining Guide: Best Restaurants, Cafes & Food Delivery Apps",
+    excerpt: "Complete guide to dining in UAE. Top restaurants across cuisines, best cafes, food delivery apps comparison, and tips for dining out on a budget.",
+    category: "lifestyle",
+    readTime: "12 min read",
+    publishedDate: "2025-01-08",
+    author: "Smart UAE Guide"
+  },
+  {
+    slug: "buying-car-uae-vs-leasing-complete-guide",
+    title: "Buying vs Leasing a Car in UAE: Complete Cost Comparison 2025",
+    excerpt: "Should you buy or lease a car in UAE? Detailed comparison of costs, benefits, insurance, maintenance, and depreciation to help you decide.",
+    category: "transportation",
+    readTime: "13 min read",
+    publishedDate: "2025-01-28",
+    author: "Smart UAE Guide"
+  },
+  {
+    slug: "uae-fitness-gyms-guide-memberships-2025",
+    title: "UAE Fitness & Gyms Guide 2025: Memberships, Classes & Personal Training",
+    excerpt: "Find the perfect gym in UAE. Compare fitness First, GymNation, Gold's Gym, and boutique studios with membership costs and facilities.",
+    category: "lifestyle",
+    readTime: "8 min read",
+    publishedDate: "2025-01-07",
     author: "Smart UAE Guide"
   }
 ];

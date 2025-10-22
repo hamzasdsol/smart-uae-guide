@@ -303,18 +303,18 @@ export default function AmazonVsNoonPage() {
             <tbody className="divide-y divide-[var(--blog-table-border)] bg-white">
               <tr className="divide-x divide-[var(--blog-table-border)]">
                 <td className="px-4 py-3 text-sm text-[var(--blog-text)] font-medium">Same-Day Delivery</td>
-                <td className="px-4 py-3 text-sm text-[var(--blog-text)]">✅ Yes (orders before 12pm)</td>
-                <td className="px-4 py-3 text-sm text-[var(--blog-text)]">✅ Yes (orders before 2pm)</td>
+                <td className="px-4 py-3 text-sm text-[var(--blog-text)]">Yes (orders before 12pm)</td>
+                <td className="px-4 py-3 text-sm text-[var(--blog-text)]">Yes (orders before 2pm)</td>
               </tr>
               <tr className="divide-x divide-[var(--blog-table-border)]">
                 <td className="px-4 py-3 text-sm text-[var(--blog-text)] font-medium">Next-Day Delivery</td>
-                <td className="px-4 py-3 text-sm text-[var(--blog-text)]">✅ Yes</td>
-                <td className="px-4 py-3 text-sm text-[var(--blog-text)]">✅ Yes</td>
+                <td className="px-4 py-3 text-sm text-[var(--blog-text)]">Yes</td>
+                <td className="px-4 py-3 text-sm text-[var(--blog-text)]">Yes</td>
               </tr>
               <tr className="divide-x divide-[var(--blog-table-border)]">
                 <td className="px-4 py-3 text-sm text-[var(--blog-text)] font-medium">Ultra-Fast (10-15 min)</td>
-                <td className="px-4 py-3 text-sm text-[var(--blog-text)]">❌ No</td>
-                <td className="px-4 py-3 text-sm text-[var(--blog-text)]">✅ Yes (Noon Minutes)</td>
+                <td className="px-4 py-3 text-sm text-[var(--blog-text)]">No</td>
+                <td className="px-4 py-3 text-sm text-[var(--blog-text)]">Yes (Noon Minutes)</td>
               </tr>
               <tr className="divide-x divide-[var(--blog-table-border)]">
                 <td className="px-4 py-3 text-sm text-[var(--blog-text)] font-medium">Standard Delivery Cost</td>
@@ -470,23 +470,23 @@ export default function AmazonVsNoonPage() {
             <h3 className="text-xl font-bold text-[var(--blog-heading)] mb-4">Amazon.ae Exclusives</h3>
             <ul className="space-y-3 text-[var(--blog-text)] text-sm">
               <li className="flex items-start">
-                <span className="mr-2">✓</span>
+                <span className="mr-2">•</span>
                 <span><strong>Amazon Basics:</strong> High-quality, budget-friendly house-brand products</span>
               </li>
               <li className="flex items-start">
-                <span className="mr-2">✓</span>
+                <span className="mr-2">•</span>
                 <span><strong>Kindle & Echo devices:</strong> Only available on Amazon</span>
               </li>
               <li className="flex items-start">
-                <span className="mr-2">✓</span>
+                <span className="mr-2">•</span>
                 <span><strong>Prime Video:</strong> Streaming service included with Prime membership</span>
               </li>
               <li className="flex items-start">
-                <span className="mr-2">✓</span>
+                <span className="mr-2">•</span>
                 <span><strong>Subscribe & Save:</strong> Recurring deliveries with 15% discount</span>
               </li>
               <li className="flex items-start">
-                <span className="mr-2">✓</span>
+                <span className="mr-2">•</span>
                 <span><strong>Amazon Fresh:</strong> Grocery delivery from Amazon&apos;s warehouses</span>
               </li>
             </ul>
@@ -496,23 +496,23 @@ export default function AmazonVsNoonPage() {
             <h3 className="text-xl font-bold text-[var(--blog-heading)] mb-4">Noon Exclusives</h3>
             <ul className="space-y-3 text-[var(--blog-text)] text-sm">
               <li className="flex items-start">
-                <span className="mr-2">✓</span>
+                <span className="mr-2">•</span>
                 <span><strong>Noon Minutes:</strong> 10-15 minute ultra-fast delivery for essentials</span>
               </li>
               <li className="flex items-start">
-                <span className="mr-2">✓</span>
+                <span className="mr-2">•</span>
                 <span><strong>Noon Daily:</strong> Comprehensive grocery service with fresh produce</span>
               </li>
               <li className="flex items-start">
-                <span className="mr-2">✓</span>
+                <span className="mr-2">•</span>
                 <span><strong>Regional brands:</strong> Exclusive partnerships with Splash, Centrepoint, Max Fashion</span>
               </li>
               <li className="flex items-start">
-                <span className="mr-2">✓</span>
+                <span className="mr-2">•</span>
                 <span><strong>Noon Credit:</strong> Flexible payment plans (no interest)</span>
               </li>
               <li className="flex items-start">
-                <span className="mr-2">✓</span>
+                <span className="mr-2">•</span>
                 <span><strong>Arabic-first experience:</strong> Better Arabic language support and content</span>
               </li>
             </ul>
@@ -572,22 +572,22 @@ export default function AmazonVsNoonPage() {
             <div className="border-l-4 border-[var(--accent-primary)] pl-5">
               <h3 className="font-bold text-[var(--blog-heading)] mb-2">Choose Amazon.ae if:</h3>
               <ul className="space-y-2 text-[var(--blog-text)] text-sm">
-                <li>✓ You primarily shop for electronics and tech gadgets</li>
-                <li>✓ You want access to Prime Video and other Amazon services</li>
-                <li>✓ You prefer longer return windows (30 days)</li>
-                <li>✓ You buy books, Kindles, or Amazon-branded products</li>
-                <li>✓ You value a more established global ecosystem</li>
+                <li>•You primarily shop for electronics and tech gadgets</li>
+                <li>•You want access to Prime Video and other Amazon services</li>
+                <li>•You prefer longer return windows (30 days)</li>
+                <li>•You buy books, Kindles, or Amazon-branded products</li>
+                <li>•You value a more established global ecosystem</li>
               </ul>
             </div>
 
             <div className="border-l-4 border-[var(--accent-primary)] pl-5">
               <h3 className="font-bold text-[var(--blog-heading)] mb-2">Choose Noon if:</h3>
               <ul className="space-y-2 text-[var(--blog-text)] text-sm">
-                <li>✓ You shop for fashion, beauty, and home décor frequently</li>
-                <li>✓ You need groceries with ultra-fast delivery (Noon Minutes)</li>
-                <li>✓ You prefer regional and local brands</li>
-                <li>✓ You want better Arabic language support</li>
-                <li>✓ You value tighter delivery windows and faster grocery delivery</li>
+                <li>•You shop for fashion, beauty, and home décor frequently</li>
+                <li>•You need groceries with ultra-fast delivery (Noon Minutes)</li>
+                <li>•You prefer regional and local brands</li>
+                <li>•You want better Arabic language support</li>
+                <li>•You value tighter delivery windows and faster grocery delivery</li>
               </ul>
             </div>
           </div>

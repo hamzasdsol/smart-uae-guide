@@ -1,16 +1,17 @@
 import Link from "next/link";
 import SearchForm from "@/components/SearchForm";
 import Image from "next/image";
-import { Wallet, TrendingUp, Wrench, ShoppingCart, Plane, BookOpen, DollarSign, Zap, RefreshCw } from "lucide-react";
+import { Wallet, TrendingUp, Wrench, ShoppingCart, Plane, BookOpen, DollarSign, Zap, RefreshCw, MapPin, Hotel, Palmtree, Baby, Wifi, Banknote, Shield, HelpCircle, FileText, Database } from "lucide-react";
 import { SITE_CONFIG } from "@/lib/constants";
 
 export default function HomePage() {
   const categories = [
-    { slug: "budget", label: "Budget & Living", description: "Smart budgeting strategies for UAE life", Icon: Wallet },
-    { slug: "finance", label: "Finance Tools", description: "Banking, investments, and money management", Icon: TrendingUp },
-    { slug: "tools", label: "Digital Tools", description: "Apps and services that work in UAE", Icon: Wrench },
-    { slug: "shopping", label: "Smart Shopping", description: "Best deals and price comparisons", Icon: ShoppingCart },
-    { slug: "expat", label: "Expat Setup", description: "Everything to start your UAE journey", Icon: Plane },
+    { slug: "budget", label: "Budget & Living", description: "Salary requirements and cost of living in UAE", Icon: Wallet },
+    { slug: "finance", label: "Finance & Banking", description: "Credit cards, bank accounts, and investments", Icon: TrendingUp },
+    { slug: "technology", label: "Digital Tools", description: "Essential apps and digital services", Icon: Wrench },
+    { slug: "comparison", label: "Comparisons & Reviews", description: "Side-by-side comparisons to make smart choices", Icon: ShoppingCart },
+    { slug: "guide", label: "Expat Setup Guides", description: "Step-by-step guides for setting up in UAE", Icon: Plane },
+    { slug: "lifestyle", label: "Health & Lifestyle", description: "Fitness, wellness, driving, and daily life in UAE", Icon: Shield },
   ];
 
   const features = [
@@ -143,7 +144,7 @@ export default function HomePage() {
               return (
                 <Link
                   key={cat.slug}
-                  href={`/category/${cat.slug}`}
+                  href="/categories"
                   className="group p-6 bg-[var(--bg-card)] border border-[var(--border-color)] rounded-xl hover:shadow-[var(--hover-shadow)] hover:border-[var(--accent-primary)] transition-all focus:outline-none focus:ring-2 focus:ring-[var(--focus-ring)] focus:ring-offset-2"
                 >
                   <Icon className="w-12 h-12 mb-4 text-[var(--accent-primary)] group-hover:scale-110 transition-transform" />
@@ -177,6 +178,60 @@ export default function HomePage() {
               );
             })}
           </div>
+        </div>
+      </section>
+
+      {/* Tourism Guide Card */}
+      <section className="py-16 md:py-20 bg-[var(--bg-primary)]">
+        <div className="max-w-6xl mx-auto px-4">
+          <Link href="/tourism-guide" className="block">
+            <div className="bg-[var(--bg-card)] border-2 border-[var(--border-color)] rounded-xl p-8 md:p-12 hover:shadow-[var(--hover-shadow)] hover:border-[var(--accent-primary)] transition-all duration-300 group">
+              <div className="flex items-center gap-3 mb-6">
+                <Palmtree className="w-10 h-10 text-[var(--accent-primary)]" />
+                <span className="px-4 py-1 bg-[var(--accent-light)] text-[var(--accent-primary)] rounded-full text-sm font-medium">
+                  Tourism Guide
+                </span>
+              </div>
+
+              <h2 className="text-3xl md:text-5xl font-bold text-[var(--text-primary)] mb-4 group-hover:text-[var(--accent-primary)] transition-colors">
+                Planning to Visit the UAE?
+              </h2>
+
+              <p className="text-lg md:text-xl text-[var(--text-secondary)] mb-8 max-w-3xl leading-relaxed">
+                Your comprehensive guide to visiting the United Arab Emirates. Everything tourists need to know - visas, transportation, accommodations, attractions, and essential services.
+              </p>
+
+              <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+                <div className="bg-[var(--bg-primary)] border border-[var(--border-color)] rounded-lg p-4 hover:bg-[var(--accent-light)] hover:border-[var(--accent-primary)] transition-all">
+                  <FileText className="w-6 h-6 text-[var(--accent-primary)] mb-2" />
+                  <h3 className="font-semibold text-[var(--text-primary)] mb-1">Visa Information</h3>
+                  <p className="text-sm text-[var(--text-secondary)]">Transit & tourist visas</p>
+                </div>
+                <div className="bg-[var(--bg-primary)] border border-[var(--border-color)] rounded-lg p-4 hover:bg-[var(--accent-light)] hover:border-[var(--accent-primary)] transition-all">
+                  <MapPin className="w-6 h-6 text-[var(--accent-primary)] mb-2" />
+                  <h3 className="font-semibold text-[var(--text-primary)] mb-1">Getting Around</h3>
+                  <p className="text-sm text-[var(--text-secondary)]">Transport & navigation</p>
+                </div>
+                <div className="bg-[var(--bg-primary)] border border-[var(--border-color)] rounded-lg p-4 hover:bg-[var(--accent-light)] hover:border-[var(--accent-primary)] transition-all">
+                  <Hotel className="w-6 h-6 text-[var(--accent-primary)] mb-2" />
+                  <h3 className="font-semibold text-[var(--text-primary)] mb-1">Accommodation</h3>
+                  <p className="text-sm text-[var(--text-secondary)]">Hotels & stays</p>
+                </div>
+                <div className="bg-[var(--bg-primary)] border border-[var(--border-color)] rounded-lg p-4 hover:bg-[var(--accent-light)] hover:border-[var(--accent-primary)] transition-all">
+                  <Shield className="w-6 h-6 text-[var(--accent-primary)] mb-2" />
+                  <h3 className="font-semibold text-[var(--text-primary)] mb-1">Safety & Help</h3>
+                  <p className="text-sm text-[var(--text-secondary)]">Emergency services</p>
+                </div>
+              </div>
+
+              <div className="flex items-center gap-3 text-[var(--accent-primary)] group-hover:gap-4 transition-all">
+                <span className="font-semibold text-lg">Explore Complete Tourism Guide</span>
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </div>
+            </div>
+          </Link>
         </div>
       </section>
 
