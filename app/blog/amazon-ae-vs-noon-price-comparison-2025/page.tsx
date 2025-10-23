@@ -116,7 +116,7 @@ export default function AmazonVsNoonPage() {
       <section id="price-comparison" className="mb-10">
         <h2 className="text-3xl font-bold text-[var(--blog-heading)] mb-6">Price Comparison by Category</h2>
         <p className="text-[var(--blog-text)] leading-relaxed mb-6">
-          We compared prices of 100+ popular products across both platforms in January 2025. Here are the results:
+          We compared prices of 100+ popular products across both platforms in October 2025. Here are the results:
         </p>
 
         <div className="space-y-8">

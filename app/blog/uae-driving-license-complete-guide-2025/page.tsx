@@ -28,7 +28,7 @@ export default function UAEDrivingLicenseGuidePage() {
               UAE Driving License Guide 2025: Complete Process for Expats
             </h1>
             <p className="text-gray-600 text-lg">
-              Last updated: January 2025 | 12 min read
+              Last updated: October 2025 | 12 min read
             </p>
           </header>
 

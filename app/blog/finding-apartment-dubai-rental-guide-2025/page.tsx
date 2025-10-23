@@ -27,7 +27,7 @@ export default function FindingApartmentDubaiPage() {
               Finding an Apartment in Dubai: Complete Rental Guide 2025
             </h1>
             <p className="text-gray-600 text-lg">
-              Last updated: January 2025 | 15 min read
+              Last updated: October 2025 | 15 min read
             </p>
           </header>
 

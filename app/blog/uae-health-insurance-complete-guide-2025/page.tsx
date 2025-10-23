@@ -31,7 +31,7 @@ export default function UAEHealthInsuranceGuidePage() {
               UAE Health Insurance Complete Guide 2025: Coverage & Costs
             </h1>
             <p className="text-gray-600 text-lg">
-              Last updated: January 2025 | 11 min read
+              Last updated: October 2025 | 11 min read
             </p>
           </header>
 

@@ -32,7 +32,7 @@ export default function DubaiWeekendActivitiesGuidePage() {
               Dubai Weekend Activities Guide 2025
             </h1>
             <p className="text-gray-600 text-lg">
-              Last updated: January 2025 | 13 min read
+              Last updated: October 2025 | 13 min read
             </p>
           </header>
 

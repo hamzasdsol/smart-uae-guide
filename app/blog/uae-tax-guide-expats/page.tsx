@@ -14,7 +14,7 @@ export default function UAETaxGuideExpatsPage() {
             UAE Tax Guide for Expats 2025: Everything You Need to Know
           </h1>
           <p className="text-gray-600 text-lg">
-            Last updated: January 2025 • 10 min read
+            Last updated: October 2025 • 10 min read
           </p>
         </header>
 

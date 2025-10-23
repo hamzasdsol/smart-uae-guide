@@ -27,7 +27,7 @@ export default function DubaiMetroGuidePage() {
               Dubai Metro Guide: Zones, Tickets, NOL Card & Route Planning
             </h1>
             <p className="text-gray-600 text-lg">
-              Last updated: January 2025 | 9 min read
+              Last updated: October 2025 | 9 min read
             </p>
           </header>
 

@@ -26,7 +26,7 @@ export default function BuyingVsLeasingCarUAEPage() {
               Buying vs Leasing a Car in UAE: Complete Cost Comparison 2025
             </h1>
             <p className="text-gray-600 text-lg">
-              Last updated: January 2025 | 13 min read
+              Last updated: October 2025 | 13 min read
             </p>
           </header>
 

@@ -191,7 +191,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: "Complete guide to dining in UAE. Top restaurants across cuisines, best cafes, food delivery apps comparison, and tips for dining out on a budget.",
     category: "lifestyle",
     readTime: "12 min read",
-    publishedDate: "2025-01-08",
+    publishedDate: "2025-10-18",
     author: "Smart UAE Guide"
   },
   {
@@ -200,7 +200,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: "Should you buy or lease a car in UAE? Detailed comparison of costs, benefits, insurance, maintenance, and depreciation to help you decide.",
     category: "transportation",
     readTime: "13 min read",
-    publishedDate: "2025-01-28",
+    publishedDate: "2025-10-18",
     author: "Smart UAE Guide"
   },
   {
@@ -209,7 +209,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: "Find the perfect gym in UAE. Compare fitness First, GymNation, Gold's Gym, and boutique studios with membership costs and facilities.",
     category: "lifestyle",
     readTime: "8 min read",
-    publishedDate: "2025-01-07",
+    publishedDate: "2025-10-18",
     author: "Smart UAE Guide"
   }
 ];

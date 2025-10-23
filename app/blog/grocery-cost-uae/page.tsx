@@ -14,7 +14,7 @@ export default function GroceryCostUAEPage() {
             Grocery Cost in UAE 2025: Complete Price Guide & Shopping Tips
           </h1>
           <p className="text-gray-600 text-lg">
-            Last updated: January 2025 • 10 min read
+            Last updated: October 2025 • 10 min read
           </p>
         </header>
 

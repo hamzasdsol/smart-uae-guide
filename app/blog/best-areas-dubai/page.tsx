@@ -14,7 +14,7 @@ export default function BestAreasDubaiPage() {
             Best Areas to Live in Dubai 2025: Complete Neighborhood Guide
           </h1>
           <p className="text-gray-600 text-lg">
-            Last updated: January 2025 • 14 min read
+            Last updated: October 2025 • 14 min read
           </p>
         </header>
 

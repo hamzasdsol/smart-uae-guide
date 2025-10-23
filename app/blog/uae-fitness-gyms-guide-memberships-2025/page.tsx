@@ -32,7 +32,7 @@ export default function UAEFitnessGymsGuideMembershipsPage() {
               UAE Fitness & Gyms Guide 2025: Memberships, Classes & Personal Training
             </h1>
             <p className="text-gray-600 text-lg">
-              Last updated: January 2025 | 12 min read
+              Last updated: October 2025 | 12 min read
             </p>
           </header>
 
